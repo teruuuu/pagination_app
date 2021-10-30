@@ -1,3 +1,3 @@
 class Post < ApplicationRecord
-  vailidates :body, presence: ture
+  validates :body, presence: true
 end
